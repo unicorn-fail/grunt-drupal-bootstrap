@@ -1,0 +1,17 @@
+{
+  "boss": true,
+  "curly": false,
+  "eqeqeq": true,
+  "eqnull": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "sub": true,
+  "undef": true,
+  "unused": false,
+  "node": true,
+  "globals": {
+    "Promise": true
+  }
+}
