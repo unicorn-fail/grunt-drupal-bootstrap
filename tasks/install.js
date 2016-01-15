@@ -12,7 +12,7 @@
   var grunt = require('grunt');
 
   // Register the task.
-  bootstrap.registerPromise('db-install', 'Drupal Bootstrap: Install the necessary grunt tasks and resources.', function () {
+  bootstrap.registerPromise('install', 'Drupal Bootstrap: Install the necessary grunt tasks and resources.', function () {
     return bootstrap.install();
   });
 
