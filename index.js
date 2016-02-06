@@ -16,7 +16,7 @@
   var grunt = require('grunt');
   var path = require('path');
   var preprocessor = require('./lib/preprocessor');
-  var Promise = require('grunt-promise').load('bluebird');
+  var Promise = require('grunt-promise').using('bluebird');
 
   /**
    * @module module:grunt-drupal-bootstrap

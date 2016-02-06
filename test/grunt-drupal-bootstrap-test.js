@@ -4,7 +4,7 @@
   var grunt = require('grunt');
 
   // This test's Promise library (bluebird).
-  var Promise = require('grunt-promise').load('bluebird');
+  var Promise = require('grunt-promise').using('bluebird');
 
   // Custom asserts.
   var assert = require('nodeunit').assert;

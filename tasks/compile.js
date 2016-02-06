@@ -11,7 +11,7 @@
   var grunt = require('grunt');
   var fs = require('./../lib/util/file');
   var bootstrap = require('../');
-  var Promise = require('grunt-promise').load('bluebird');
+  var Promise = require('grunt-promise').using('bluebird');
 
   bootstrap.registerMultiPromise('compile', 'Drupal Bootstrap: Compile the source stylesheets into CSS.', function () {
     var options = this.options({
