@@ -1,7 +1,7 @@
 {
   "name": "grunt-drupal-bootstrap",
   "description": "Plugin to help automate tasks for a Drupal Bootstrap theme.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/unicorn-fail/grunt-drupal-bootstrap",
   "keywords": [
     "grunt",
